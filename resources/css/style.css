@@ -1,3 +1,44 @@
 body {
     background-color: black; 
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+.header {
+    border-bottom: solid 1px seashell;
+    height: 69px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    align-items: flex-start;
+    
+}
+.top-nav {
+ 
+ 
+}
+.link1, .link2, .link3 {
+    font-size: 22px;
+    font-family: Helvetica;
+    text-decoration: underline;
+    color: seashell;
+    margin-right: 15px;
+    align-items: flex-end;
+    height: 50px;
+    
+    
+    
+
+
+
 }
