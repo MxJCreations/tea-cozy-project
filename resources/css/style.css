@@ -1,9 +1,8 @@
 body {
-    background-color: black; 
+    background-color: black;    
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-    opacity: 0.9;
     text-align: center;
 }
 .header {
@@ -11,7 +10,7 @@ body {
     height: 69px;
     display: flex;
     width: 100%;
-    position: fixed;
+    position:relative;
     justify-content: space-between;
     align-items: center;
     
@@ -35,10 +34,59 @@ body {
     margin-right: 15px;
     align-items: flex-end;
     height: 50px;
+}
+.section1 {
+    background-image:url(../images/mission-background.jpg.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    width: 1200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 200px;
     
+}
+.article1 {
+    width: 1200px;
+    background-color: black;
+
+}
+.section2 {
+    display:inline-flex;
+  width: 1000px;
+  justify-content: center;
+}
+.article-two {
+
+}
     
     
 
-
-
+.img1 {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.img2 {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.img3 {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.img4 {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.img5 {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
 }
